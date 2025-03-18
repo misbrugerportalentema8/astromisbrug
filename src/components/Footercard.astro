@@ -1,0 +1,65 @@
+<style>
+  .footercard {
+    display: flex;
+    justify-content: space-between; /* Holder indholdet i hver sin side */
+    align-items: center; /* Centrerer tingene vertikalt */
+    width: 100%;
+    
+    margin: 0 auto; /* Centrerer containeren på siden */
+    padding: 40px 60px; /* Luft rundt om */
+  }
+
+  /* Venstre side - navigation */
+  .footercard .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* Holder "Forside" og "Formular" i toppen */
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Giver luft mellem navigation og "Følg os" */
+  .social-links {
+    margin-top: 40px; /* Skubber "Følg os" ned */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .follow-us {
+    color: #e26d5c; /* Orange farve */
+    font-weight: bold;
+  }
+
+  /* Højre side - logo */
+  .footercard .right {
+    display: flex;
+    align-items: center; /* Centrerer logoet vertikalt */
+  }
+
+  .footercard .right img {
+    height: 60px; /* Justér størrelsen */
+  }
+</style>
+
+<div class="footercard">
+  <div class="left">
+    <div class="nav-links">
+      <p>Forside</p>
+      <p>Formular</p>
+    </div>
+    <div class="social-links">
+      <p class="follow-us">Følg os</p>
+      <p>Instagram</p>
+      <p>Facebook</p>
+    </div>
+  </div>
+  <div class="right">
+    <img src="/Logo.webp" alt="Pårørende Netværket">
+  </div>
+</div>
