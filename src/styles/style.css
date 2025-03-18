@@ -1,3 +1,22 @@
+/* 
+Farver:
+Primary: #E8E6E4
+Secondary: #FD9357
+Action: #60C5BB
+Grey: #C6CFCC
+Black: #282828 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
 h1 {
   font-family: "Monsterrat", sans-serif;
   font-size: 48px;
