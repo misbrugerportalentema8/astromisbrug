@@ -1,0 +1,57 @@
+---
+
+---
+<div class="cards">
+<div class="infocard">
+<img src="card1_1.svg" alt="billede1" class="image">
+<div class="colorbackground">
+<h3>Er du klar til at gøre en forskel - helt digitalt?</h3>
+<p>Hos Misbrugsportalen.dk søger vi engagerede frivillige, der vil være med til at skabe en positiv forandring for dem, der har brug for hjælp. </p>
+</div>
+</div>
+
+<div class="infocard">
+<img src="card2_2.svg" alt="billede2" class="image">
+<div class="colorbackground">
+<h3>Bliv frivillig - direkte fra hjemmet!</h3>
+<p>Har du lyst til at gøre en forskel, men uden at forlade hjemmet? Hos Misbrugsportalen.dk kan du hjælpe sårbare mennesker helt digitalt, når det passer dig. Uanset om du har en time om ugen eller mere, kan du bidrage til vores vigtige arbejde - fra din egen stue.</p>
+</div>
+</div>
+</div>
+
+<style>
+    .infocard {
+display: flex;
+flex-direction: row;
+ align-items: center;
+margin-bottom: 3rem;
+    }
+
+    .cards {
+      display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrerer indholdet horisontalt */
+    justify-content: center; /* Centrerer indholdet lodret */
+    margin: 5rem auto; /* Auto-centering på siden */
+    max-width: 80%;
+    }
+
+    .colorbackground {
+        background-color: #FD9357;
+        /* flex: 0.8; Lader teksten fylde mere */
+        padding: 1rem 2rem; /* Gør boksen større */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 280px;
+    }
+
+      .image {
+        max-width: 40%; /* Reducerer billedstørrelsen */
+        height: auto;
+    }
+
+    h3{
+        font-weight: bold;
+    }
+</style>
