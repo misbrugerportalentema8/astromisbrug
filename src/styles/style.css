@@ -16,6 +16,9 @@ Black: #282828
 img {
   width: 100%;
 }
+main {
+  background-color: #c6cfcc;
+}
 
 h1 {
   font-family: "Monsterrat", sans-serif;
