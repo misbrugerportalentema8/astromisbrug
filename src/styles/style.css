@@ -1,7 +1,12 @@
-img {
-  width: 100%;
+h1 {
+  font-family: "Monsterrat", sans-serif;
+  font-size: 48px;
 }
-.textcards {
-  display: flex;
-  flex-direction: column;
+h2 {
+  font-family: "Monsterrat", sans-serif;
+  font-size: 38px;
+}
+p {
+  font-family: "Lora", serif;
+  font-size: 24px;
 }
