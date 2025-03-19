@@ -3,22 +3,21 @@ import Logo from "../components/Logo.astro";
 import Rundknap from "../components/Rundknap.astro";
 ---
 
-<style>
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white; /* Sørger for en hvid baggrund */
-    padding: 15px 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10; /* Sørger for, at navigationen er over hero-billedet */
-  }
-</style>
-
 <nav class="navigation">
   <Logo />
   <Rundknap />
 </nav>
+
+<style>
+  .navigation {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+</style>
