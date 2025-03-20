@@ -17,10 +17,10 @@ import Rundknap from "../components/Rundknap.astro"
 import Subtitle from "../components/Subtitle.astro"
 import Textcard from "../components/Textcard.astro"
 import "../styles/style.css"
-const heading1 = "Alle kan hjælpe til som frivillig";
-const heading2 = "Stærke ord fra dem, vi har hjulpet";
-const heading3 = "Bliv frivillig fra din sofa";
-const heading4 = "Vi glæder os til at høre fra dig!";
+const headline1 = "Alle kan hjælpe til som frivillig";
+const headline2 = "Stærke ord fra dem, vi har hjulpet";
+const headline3 = "Bliv frivillig fra din sofa";
+const headline4 = "Vi glæder os til at høre fra dig!";
 ---
 <!doctype html>
 <html lang="en">
@@ -38,14 +38,15 @@ const heading4 = "Vi glæder os til at høre fra dig!";
   <main>
 <Navigation />
 <Hero />
+<h1>{headline1}</h1>
 <Background_textcard/>
-<h2>{heading2}</h2>
+<h1>{headline2}</h1>
 <Picturecard />
-<h2>{heading3}</h2>
+<h1>{headline3}</h1>
 <Middlehero />
 <Infocard />
 <Subtitle />
-<h2>{heading4}</h2>
+<h1>{headline4}</h1>
 <Forms />
 <Footer />
   </main>
