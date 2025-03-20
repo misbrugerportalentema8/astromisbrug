@@ -21,7 +21,8 @@ main {
 }
 
 main > *:not(.hero):not(.footer) {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 h1 {
