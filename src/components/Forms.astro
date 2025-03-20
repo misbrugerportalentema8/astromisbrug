@@ -2,47 +2,24 @@
 
 ---
 
-<div class="Forms">
-<input type="text" placeholder="Fulde navn">
-<input type="text" placeholder="Email">
-<input class="stortfelt" type="text" placeholder="Kort om dig selv">
-<div class="textfelt">
-<p>Vedhæft ansøgning</p>
-<button>Indsend</button>
-</div>
-</div>
+<div id="Forms" class="Forms">
+    <input type="text" placeholder="Fulde navn">
+    <input type="text" placeholder="Email">
+    <input class="stortfelt" type="text" placeholder="Kort om dig selv">
+    <div class="textfelt">
+      <p>Vedhæft ansøgning</p>
+      <button>Indsend</button>
+    </div>
+  </div>
 
-<style>@media (min-width: 600px) {    
-    .Forms{
-        display: flex;
-        flex-direction: column;
-        margin-inline: 23rem;
-        gap: 25px;
-        margin-top: 3rem;
-    }
-    input{
-        height: 50px;
-        background-color: #ECEBEA;
-        border: 1px solid black;
-    }
-    .stortfelt{
-      height: 90px;
-  background-color: #ECEBEA;
-  border: 1px solid black;
-    }
-   
-    p{
-        color: #3CAA9F;
-        text-decoration: underline;
-        font-size: 1.3rem;
-    }
-}
+<style>
 .Forms{
         display: flex;
         flex-direction: column;
         gap: 10px;
         margin-top: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
+        margin-inline: 0.5rem;
     }
     input{
         height: 40px;
@@ -83,4 +60,30 @@
   cursor: pointer;
   margin-left: auto;
     }
+
+    @media (min-width: 600px) {    
+    .Forms{
+        display: flex;
+        flex-direction: column;
+        margin-inline: 23rem;
+        gap: 25px;
+        margin-top: 3rem;
+    }
+    input{
+        height: 50px;
+        background-color: #ECEBEA;
+        border: 1px solid black;
+    }
+    .stortfelt{
+      height: 90px;
+  background-color: #ECEBEA;
+  border: 1px solid black;
+    }
+   
+    p{
+        color: #3CAA9F;
+        text-decoration: underline;
+        font-size: 1.3rem;
+    }
+}
 </style>
