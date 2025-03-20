@@ -1,3 +1,41 @@
-<div>
-    <img src="laptop.svg" alt="computer">
+---
+const headline3 = "Bliv frivillig fra din sofa";
+---
+
+
+<div class="middlehero_container">
+    <img class="middlehero_img" src="laptop.svg" alt="computer">
+    <div>
+    <h1 class="middlehero_overskrift">{headline3}</h1>
+    <div class="box">
 </div>
+    </div>
+</div>
+
+<style>
+    .middlehero_container {
+  position: relative;
+  display: inline-block;
+}
+    .middlehero_img {
+          width: 100%;
+  height: auto;
+  display: block;
+    }
+    .middlehero_overskrift {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-size: 48px;
+    }
+    .box {
+         position: absolute;
+  top: 55%; 
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 8px solid #F79B6C;
+  width: 600px;
+margin: auto;
+}
+</style>

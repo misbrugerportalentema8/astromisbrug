@@ -1,11 +1,10 @@
 ---
 import Textcard from "../components/Textcard.astro"
-import Headline from "../components/Headline.astro"
 const heading1 = "Alle kan hjælpe til som frivillig";
 ---
 
 <div class="background_textcard">
-<h2>{heading1}</h2>
+<h1 class="background_textcard_h1">{heading1}</h1>
 <Textcard />
 </div>
 
@@ -14,6 +13,9 @@ const heading1 = "Alle kan hjælpe til som frivillig";
 <style>
 div {
 background-color: #FD9357;
+}
+.background_textcard_h1 {
+padding-top: 60px;
 }
 
 </style>
