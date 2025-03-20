@@ -28,10 +28,19 @@ h1 {
   font-family: "Monsterrat", sans-serif;
   font-size: 1.7rem;
 }
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0; /* Giver luft omkring */
+  color: #333; /* Mørk tekstfarve */
+}
 h2 {
   font-family: "Monsterrat", sans-serif;
   font-size: 1.2rem;
 }
+
 p {
   font-family: "Lora", serif;
   font-size: 1rem;
